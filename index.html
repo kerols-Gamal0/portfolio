@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerols Gamal | Flutter Developer Portfolio</title>
+    <meta name="description"
+        content="Flutter Developer with 1+ years of experience building scalable, high-performance cross-platform mobile applications.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ============ Navbar ============ -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="logo">Kerols<span class="gradient-text">.dev</span></a>
+
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-cta">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kerols038@gmail.com&su=Hiring%20Inquiry%20for%20Kerols%20Gamal%20(Flutter%20Developer)&body=Hello%20Kerols,%0A%0AI%20came%20across%20your%20portfolio%20and%20I'm%20interested%20in%20working%20with%20you."
+                    target="_blank" class="btn-hire">Hire Me</a>
+                <button class="hamburger" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ============ Hero Section ============ -->
+    <header id="home" class="hero">
+        <div class="particles"></div>
+
+        <div class="container hero-grid">
+            <div class="profile-wrapper reveal">
+                <div class="profile-pulse"></div>
+                <div class="profile-ring"></div>
+                <div class="profile-ring-2"></div>
+
+                <!-- Orbiting tech icons (each orbits around the photo) -->
+                <div class="orbit orbit-1">
+                    <div class="orbit-icon"><i class="fa-brands fa-flutter"></i></div>
+                </div>
+                <div class="orbit orbit-2">
+                    <div class="orbit-icon"><i class="fa-brands fa-dart-lang"></i></div>
+                </div>
+                <div class="orbit orbit-3">
+                    <div class="orbit-icon"><i class="fa-solid fa-fire"></i></div>
+                </div>
+                <div class="orbit orbit-4">
+                    <div class="orbit-icon"><i class="fa-solid fa-cloud"></i></div>
+                </div>
+                <div class="orbit orbit-5">
+                    <div class="orbit-icon"><i class="fa-solid fa-database"></i></div>
+                </div>
+                <div class="orbit orbit-6">
+                    <div class="orbit-icon"><i class="fa-solid fa-code"></i></div>
+                </div>
+                <div class="orbit orbit-7">
+                    <div class="orbit-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+                </div>
+                <div class="orbit orbit-8">
+                    <div class="orbit-icon"><i class="fa-solid fa-rocket"></i></div>
+                </div>
+
+                <!-- Floating skill badges -->
+                <div class="floating-badge fb-1"><i class="fa-solid fa-bolt"></i> Fast</div>
+                <div class="floating-badge fb-2"><i class="fa-solid fa-shield-halved"></i> Secure</div>
+                <div class="floating-badge fb-3"><i class="fa-solid fa-mobile-screen-button"></i> Mobile</div>
+
+                <div class="profile-ring-inner">
+                    <img src="myphoto/profile.jpeg" alt="Kerols Gamal">
+                </div>
+            </div>
+
+            <div class="hero-content reveal delay-1">
+                <div class="hero-badge">
+                    <span class="dot"></span>
+                    Available for Opportunities
+                </div>
+                <h1 class="hero-title">Hi, I'm <span class="gradient-text">Kerols Gamal</span></h1>
+                <h2 class="hero-subtitle">
+                    <span id="typed"></span><span class="typed-cursor">|</span>
+                </h2>
+                <p class="hero-desc">
+                    Flutter Developer with over a year of hands-on experience building scalable, maintainable, and
+                    high-performance cross-platform mobile applications. Expert in Clean Architecture, advanced state
+                    management, and production-ready app development.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i> View My Work
+                    </a>
+                    <a href="cv/CV.pdf" download class="btn btn-outline">
+                        <i class="fas fa-file-alt"></i> Download CV
+                    </a>
+                </div>
+                <div class="hero-socials">
+                    <a href="https://github.com/kerols-Gamal0" target="_blank" aria-label="GitHub"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/kerols-gamal" target="_blank" aria-label="LinkedIn"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kerols038@gmail.com&su=Inquiry%20from%20Portfolio&body=Hello%20Kerols,%0A%0AI%20saw%20your%20portfolio%20and%20want%20to%20connect."
+                        target="_blank" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://wa.me/201202377475" target="_blank" aria-label="WhatsApp"><i
+                            class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Stats Row -->
+        <div class="container">
+            <div class="stats-row reveal">
+                <div class="stat-card">
+                    <div class="stat-num" data-count="1">0</div>
+                    <div class="stat-label">Year Experience</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-num" data-count="11">0</div>
+                    <div class="stat-label">Projects Built</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-num" data-count="4">0</div>
+                    <div class="stat-label">Training Programs</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-num" data-count="20">0<sup>+</sup></div>
+                    <div class="stat-label">Tech Tools</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ============ Skills Section ============ -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <div class="section-tag">What I Bring</div>
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-subtitle">A comprehensive toolkit for building production-ready Flutter applications —
+                    from clean architecture to CI/CD.</p>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Flutter & Mobile -->
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i class="fa-brands fa-flutter"></i></div>
+                    <h3>Flutter & Mobile</h3>
+                    <div class="skill-tags">
+                        <span>Flutter SDK</span>
+                        <span>Responsive & Adaptive UI</span>
+                        <span>Custom Widgets</span>
+                        <span>Animations</span>
+                        <span>Performance Optimization</span>
+                    </div>
+                </div>
+
+                <!-- Architecture & Scalability -->
+                <div class="skill-card reveal delay-1">
+                    <div class="skill-icon"><i class="fas fa-layer-group"></i></div>
+                    <h3>Architecture & Scalability</h3>
+                    <div class="skill-tags">
+                        <span>Clean Architecture</span>
+                        <span>MVVM</span>
+                        <span>MVI</span>
+                        <span>Feature-First</span>
+                        <span>SOLID</span>
+                        <span>Design Patterns</span>
+                        <span>Dependency Injection</span>
+                    </div>
+                </div>
+
+                <!-- State Management -->
+                <div class="skill-card reveal delay-2">
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                    <h3>State Management & DI</h3>
+                    <div class="skill-tags">
+                        <span>BLoC</span>
+                        <span>Cubit</span>
+                        <span>Provider</span>
+                        <span>get_it</span>
+                        <span>injectable</span>
+                        <span>Service Locator</span>
+                    </div>
+                </div>
+
+                <!-- Backend & Integrations -->
+                <div class="skill-card reveal delay-3">
+                    <div class="skill-icon"><i class="fas fa-server"></i></div>
+                    <h3>Backend & Integrations</h3>
+                    <div class="skill-tags">
+                        <span>REST API</span>
+                        <span>Dio</span>
+                        <span>HTTP</span>
+                        <span>Firebase Auth</span>
+                        <span>Cloud Firestore</span>
+                    </div>
+                </div>
+
+                <!-- Local Storage -->
+                <div class="skill-card reveal delay-4">
+                    <div class="skill-icon"><i class="fas fa-hdd"></i></div>
+                    <h3>Local Storage</h3>
+                    <div class="skill-tags">
+                        <span>SharedPreferences</span>
+                        <span>Flutter Secure Storage</span>
+                        <span>Hive</span>
+                    </div>
+                </div>
+
+                <!-- Dart Advanced -->
+                <div class="skill-card reveal delay-5">
+                    <div class="skill-icon"><i class="fab fa-dart-lang"></i></div>
+                    <h3>Dart Advanced</h3>
+                    <div class="skill-tags">
+                        <span>Async/Await</span>
+                        <span>Futures</span>
+                        <span>Streams</span>
+                        <span>Isolates</span>
+                        <span>Mixins</span>
+                        <span>Extensions</span>
+                        <span>Generics</span>
+                        <span>Records & Patterns</span>
+                        <span>Null Safety</span>
+                    </div>
+                </div>
+
+                <!-- Testing -->
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i class="fas fa-vial"></i></div>
+                    <h3>Testing</h3>
+                    <div class="skill-tags">
+                        <span>Unit Testing</span>
+                        <span>Widget Testing</span>
+                        <span>Integration Testing</span>
+                    </div>
+                </div>
+
+                <!-- Version Control & DevOps -->
+                <div class="skill-card reveal delay-1">
+                    <div class="skill-icon"><i class="fas fa-code-branch"></i></div>
+                    <h3>Version Control & DevOps</h3>
+                    <div class="skill-tags">
+                        <span>Git</span>
+                        <span>Git Flow</span>
+                        <span>GitHub</span>
+                        <span>CI/CD</span>
+                        <span>GitHub Actions</span>
+                    </div>
+                </div>
+
+                <!-- Collaboration & Tools -->
+                <div class="skill-card reveal delay-2">
+                    <div class="skill-icon"><i class="fas fa-users"></i></div>
+                    <h3>Collaboration & Tools</h3>
+                    <div class="skill-tags">
+                        <span>Agile / Scrum</span>
+                        <span>Jira</span>
+                        <span>Slack</span>
+                        <span>Figma</span>
+                        <span>Postman</span>
+                        <span>Code Review</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ Experience Section ============ -->
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <div class="section-tag">My Journey</div>
+                <h2 class="section-title">Professional Experience</h2>
+                <p class="section-subtitle">Mentoring, interning, and building hands-on experience across leading tech
+                    institutes.</p>
+            </div>
+
+            <div class="timeline">
+                <!-- IEEE -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="role">Flutter Instructor</div>
+                        <div class="company">IEEE Benha University Branch</div>
+                        <div class="period"><i class="far fa-calendar"></i> 2026 Season</div>
+                        <ul>
+                            <li>Delivered Flutter technical sessions covering fundamentals, Dart programming, state
+                                management, and architecture.</li>
+                            <li>Mentored students through practical projects and code reviews, assisting trainees in
+                                building production-level Flutter applications.</li>
+                            <li>Participated in planning technical content and organizing learning activities.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- NTI -->
+                <div class="timeline-item reveal delay-1">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="role">Flutter Trainee</div>
+                        <div class="company">National Telecommunication Institute (NTI)</div>
+                        <div class="period"><i class="far fa-calendar"></i> 5-Month Internship</div>
+                        <ul>
+                            <li>Completed intensive training in professional Flutter development and built scalable
+                                mobile applications using Clean Architecture and BLoC.</li>
+                            <li>Integrated REST APIs and Firebase services, working on real-world team-based development
+                                scenarios using Git workflows.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- ITI -->
+                <div class="timeline-item reveal delay-2">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="role">Flutter Trainee</div>
+                        <div class="company">Information Technology Institute (ITI)</div>
+                        <div class="period"><i class="far fa-calendar"></i> 4-Month Internship</div>
+                        <ul>
+                            <li>Developed production-style Flutter applications applying software engineering principles
+                                and best coding practices.</li>
+                            <li>Worked with modern Flutter architecture, state management techniques, and gained
+                                experience in collaborative software development.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- GDG -->
+                <div class="timeline-item reveal delay-3">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="role">Flutter Trainee</div>
+                        <div class="company">GDG On Campus Benha</div>
+                        <div class="period"><i class="far fa-calendar"></i> 2026 Season</div>
+                        <ul>
+                            <li>Participated in handcrafted Flutter training sessions and workshops to build multiple
+                                mobile applications following industry best practices.</li>
+                            <li>Collaborated with peers on real-world development tasks.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ Education Section ============ -->
+    <section id="education" class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <div class="section-tag">Academic Background</div>
+                <h2 class="section-title">Education</h2>
+                <p class="section-subtitle">Bridging computer science fundamentals with real-world mobile engineering.
+                </p>
+            </div>
+
+            <div class="education-grid">
+                <div class="edu-card reveal">
+                    <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>B.Sc. in Computers and Artificial Intelligence</h3>
+                    <div class="school">Benha University</div>
+                    <p class="focus">
+                        Department / Focus: Software Engineering, Object-Oriented Programming, Data Structures,
+                        Algorithms, Databases, and Mobile Application Development.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ Projects Section ============ -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <div class="section-tag">My Portfolio</div>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Production-grade mobile applications built with Flutter, spanning
+                    e-commerce, AI, real-time chat, and more.</p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Shopping App -->
+                <a href="https://github.com/kerols-Gamal0/shopping-app.git" target="_blank" class="project-card reveal">
+                    <div class="project-head">
+                        <i class="fas fa-shopping-cart project-icon"></i>
+                        <i class="fas fa-arrow-right project-arrow"></i>
+                    </div>
+                    <h3>Shopping Mobile Application</h3>
+                    <p>Scalable production-grade e-commerce app with Clean Architecture and MVI for predictable state
+                        flow. Cart workflows and dynamic calculations handled efficiently with Dio.</p>
+                    <div class="project-tags">
+                        <span>Clean Arch</span><span>MVI</span><span>Bloc/Cubit</span><span>Dio</span><span>REST
+                            API</span>
+                    </div>
+                </a>
+
+                <!-- E-Commerce API -->
+                <a href="https://github.com/kerols-Gamal0/e_commerce_app_api_26-master.git" target="_blank"
+                    class="project-card reveal delay-1">
+                    <div class="project-head">
+                        <i class="fas fa-shopping-bag project-icon"></i>
+                        <i class="fas fa-arrow-right project-arrow"></i>
+                    </div>
+                    <h3>E-Commerce Mobile Application</h3>
+                    <p>Modular clean-architecture-based app using HTTP endpoints with cart logic, dynamic calculation,
+                        and Provider state synchronization.</p>
+                    <div class="project-tags">
+                        <span>REST API</span><span>Clean Arch</span><span>Provider</span>
+                    </div>
+                </a>
+
+                <!-- Aura AI -->
+                <a href="https://github.com/kerols-Gamal0/aura_ai.git" target="_blank"
+                    class="project-card reveal delay-2">
+                    <div class="project-head">
+                        <i class="fas fa-robot project-icon"></i>
+                        <i class="fas fa-arrow-right project-arrow"></i>
+                    </div>
+                    <h3>Aura AI Chat</h3>
+                    <p>Streaming real-time AI conversations integrated with Groq API. Local chat persistence using
+                        SharedPreferences with Provider state management.</p>
+                    <div class="project-tags">
+                        <span>Groq API</span><span>Provider</span><span>SharedPreferences</span>
+                    </div>
+                </a>
+
+                <!-- Real-Time Chat -->
+                <a href="https://github.com/kerols-Gamal0" target="_blank" class="project-card reveal delay-3">
+                    <div class="project-head">
+                        <i class="fas fa-comments project-icon"></i>
+                        <i class="fas fa-arrow-right project-arrow"></i>
+                    </div>
+                    <h3>Real-Time Chat App</h3>
+                    <p>Real-time messaging featuring Firebase Authentication and user search. Live chat rooms with
+                        instant synchronization using Firestore streams.</p>
+                    <div class="project-tags">
+                        <span>Firebase Auth</span><span>Cloud Firestore</span><span>Streams</span>
+                    </div>
+                </a>
+
+                <!-- Book Store -->
+                <a href="https://github.com/kerols-Gamal0/book_market.git" target="_blank" class="project-card reveal">
+                    <div class="project-head">
+                        <i class="fas fa-book-open project-icon"></i>
+                        <i class="fas fa-arrow-right project-arrow"></i>
+                    </div>
+                    <h3>Flutter Book Store</h3>
+                    <p>Complete user journeys with splash workflows, form-validated login, detailed book listings, and
+                        dynamic pricing managers via Provider.</p>
+                    <div class="project-tags">
+                        <span>Flutter</span><span>Provider</span><span>Form Validation</span>
+                    </div>
+                </a>
+
+                <!-- Advanced UI -->
+                <a href="https://github.com/kerols-Gamal0/flutter_Advanced_UI.git" target="_blank"
+                    class="project-card reveal delay-1">
+                    <div class="project-head">
+                        <i class="fas fa-layer-group project-icon"></i>
+                        <i class="fas fa-arrow-right project-arrow"></i>
+                    </div>
+                    <h3>Advanced UI Patterns</h3>
+                    <p>Complex Figma-style layout simulation handling dark/light themes and custom tab logic with
+                        responsive adaptation.</p>
+                    <div class="project-tags">
+                        <span>UI/UX</span><span>Themes</span><span>Responsive</span>
+                    </div>
+                </a>
+
+                <!-- News App -->
+                <a href="https://github.com/kerols-Gamal0/news_app.git" target="_blank"
+                    class="project-card reveal delay-2">
+                    <div class="project-head">
+                        <i class="fas fa-newspaper project-icon"></i>
+                        <i class="fas fa-arrow-right project-arrow"></i>
+                    </div>
+                    <h3>Live News Hub</h3>
+                    <p>Nested JSON mapping structures capturing live news article streams efficiently with clean state
+                        handling.</p>
+                    <div class="project-tags">
+                        <span>JSON</span><span>State Management</span>
+                    </div>
+                </a>
+
+                <!-- Explore Egypt -->
+                <a href="https://github.com/kerols-Gamal0/explore_Egypt.git" target="_blank"
+                    class="project-card reveal delay-3">
+                    <div class="project-head">
+                        <i class="fas fa-map-marker-alt project-icon"></i>
+                        <i class="fas fa-arrow-right project-arrow"></i>
+                    </div>
+                    <h3>Explore Egypt</h3>
+                    <p>Categorized geographical route hierarchies with intensive asset image rendering for a rich travel
+                        experience.</p>
+                    <div class="project-tags">
+                        <span>Navigation</span><span>Assets</span>
+                    </div>
+                </a>
+
+                <!-- Secure Auth -->
+                <a href="https://github.com/kerols-Gamal0/multi_screen.git" target="_blank" class="project-card reveal">
+                    <div class="project-head">
+                        <i class="fas fa-shield-alt project-icon"></i>
+                        <i class="fas fa-arrow-right project-arrow"></i>
+                    </div>
+                    <h3>Secure Auth Flow</h3>
+                    <p>Multi-screen login structures managing strict text input validation controllers for secure
+                        authentication.</p>
+                    <div class="project-tags">
+                        <span>Auth</span><span>Validation</span>
+                    </div>
+                </a>
+
+                <!-- Calculator -->
+                <a href="https://github.com/kerols-Gamal0/calculator.git" target="_blank"
+                    class="project-card reveal delay-1">
+                    <div class="project-head">
+                        <i class="fas fa-calculator project-icon"></i>
+                        <i class="fas fa-arrow-right project-arrow"></i>
+                    </div>
+                    <h3>Math Parser Engine</h3>
+                    <p>Core mathematical algorithm execution coupled with a clean, ergonomic grid UI for seamless
+                        calculations.</p>
+                    <div class="project-tags">
+                        <span>Algorithms</span><span>UI</span>
+                    </div>
+                </a>
+
+                <!-- Instagram Clone -->
+                <a href="https://github.com/kerols-Gamal0/insta.git" target="_blank"
+                    class="project-card reveal delay-2">
+                    <div class="project-head">
+                        <i class="fab fa-instagram project-icon"></i>
+                        <i class="fas fa-arrow-right project-arrow"></i>
+                    </div>
+                    <h3>Instagram UI Clone</h3>
+                    <p>High-performance nested list views handling horizontal carousels inside vertical grids.</p>
+                    <div class="project-tags">
+                        <span>UI Clone</span><span>Performance</span>
+                    </div>
+                </a>
+
+                <!-- FoodGo -->
+                <a href="https://github.com/kerols-Gamal0/foodgo.git" target="_blank"
+                    class="project-card reveal delay-3">
+                    <div class="project-head">
+                        <i class="fas fa-hamburger project-icon"></i>
+                        <i class="fas fa-arrow-right project-arrow"></i>
+                    </div>
+                    <h3>FoodGo Checkout</h3>
+                    <p>Dynamic cart engine mapping extra add-ons directly to real-time price calculations for a smooth
+                        checkout experience.</p>
+                    <div class="project-tags">
+                        <span>Cart Engine</span><span>State</span>
+                    </div>
+                </a>
+
+                <!-- Standard E-Commerce -->
+                <a href="https://github.com/kerols-Gamal0/e_commerce.git" target="_blank" class="project-card reveal">
+                    <div class="project-head">
+                        <i class="fas fa-store project-icon"></i>
+                        <i class="fas fa-arrow-right project-arrow"></i>
+                    </div>
+                    <h3>Standard E-Commerce</h3>
+                    <p>Optimized static catalog layout emphasizing product grid component performance.</p>
+                    <div class="project-tags">
+                        <span>Catalog</span><span>Performance</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ Contact Section ============ -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <div class="section-tag">Get In Touch</div>
+                <h2 class="section-title">Contact Me</h2>
+                <p class="section-subtitle">Have a project in mind or want to collaborate? Let's build something great
+                    together.</p>
+            </div>
+
+            <div class="contact-grid">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kerols038@gmail.com&su=Hiring%20Inquiry%20for%20Kerols%20Gamal&body=Hello%20Kerols,%0A%0AI%20would%20like%20to%20discuss%20a%20potential%20opportunity%20with%20you."
+                    target="_blank" class="contact-card reveal">
+                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                    <h3>Email</h3>
+                    <p>kerols038@gmail.com</p>
+                </a>
+                <a href="tel:+201202377475" class="contact-card reveal delay-1">
+                    <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                    <h3>Phone</h3>
+                    <p>+201202377475</p>
+                </a>
+                <a href="https://www.linkedin.com/in/kerols-gamal" target="_blank" class="contact-card reveal delay-2">
+                    <div class="contact-icon"><i class="fab fa-linkedin-in"></i></div>
+                    <h3>LinkedIn</h3>
+                    <p>linkedin.com/in/kerols-gamal</p>
+                </a>
+                <a href="https://github.com/kerols-Gamal0" target="_blank" class="contact-card reveal delay-3">
+                    <div class="contact-icon"><i class="fab fa-github"></i></div>
+                    <h3>GitHub</h3>
+                    <p>github.com/kerols-Gamal0</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ Footer ============ -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Kerols Gamal. Crafted with <i class="fas fa-heart heart"></i> using
+                Flutter & Dart.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <button id="scrollTop" class="scroll-top" aria-label="Scroll to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Custom Scripts -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
